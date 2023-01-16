@@ -1,6 +1,6 @@
 function red() {
   document.querySelector("#red").innerHTML = `
-    <div clas="container" id="component_red">
+    <div class="container" id="component_red">
       <h1>red</h1>
       <input type="button" value="fire" onclick="
         document.querySelector('#component_red').style.backgroundColor = 'red';
@@ -13,7 +13,7 @@ function red() {
 
 function green() {
   document.querySelector("#green").innerHTML = `
-    <div clas="container" id="component_green">
+    <div class="container" id="component_green">
       <h1>green</h1>
       <input type="button" value="fire" onclick="
         document.querySelector('#component_red').style.backgroundColor = 'green';
@@ -26,7 +26,7 @@ function green() {
 
 function blue() {
   document.querySelector("#blue").innerHTML = `
-    <div clas="container" id="component_blue">
+    <div class="container" id="component_blue">
       <h1>blue</h1>
       <input type="button" value="fire" onclick="
         document.querySelector('#component_red').style.backgroundColor = 'blue';
